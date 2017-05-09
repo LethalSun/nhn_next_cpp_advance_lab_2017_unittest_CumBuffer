@@ -6,10 +6,15 @@
     <ClInclude Include="..\CumBuffer.h">
       <Filter>source</Filter>
     </ClInclude>
+    <ClInclude Include="MockCumbuffer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="unittest1.cpp" />
+    <ClCompile Include="MockCumbuffer.cpp" />
+    <ClCompile Include="CumBuffer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="source">
